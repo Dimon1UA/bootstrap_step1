@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+}
+.box{
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid red;
+    text-align: center;
+}
+.text_basket{
+    margin-left: -3px;
+}
+.text_basket h4{
+    font-size: 20px;
+}
+.content {
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+.text_1{
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+.text_2{
+    margin-bottom: 20px;
+    height: 500px;
+}
+.slauder{
+    min-height: 200px;
+}
+.row{
+    margin-bottom: 20px;
+    
+}
+.imi{
+    display: flex;
+    width: 100%;
+}
+.img{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.img img{
+   width: 100%;
+    
+}
+h5{
+    color: black;
+}
+.info{
+    height: 200px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(255, 187, 0);
+    transition: all 0.5s;
+    
+}
+.name_phone{
+    margin-top: 10px;
+}
+.name_phone h6{
+    text-align: center;
+    font-size: 13px;
+}
+.fa-shopping-basket{
+    margin-top: 8px;
+    font-size: 30px;
+    color: rgb(8, 148, 8);
+    transition: all 0.8s;
+}
+@media screen and (max-width:1200px) {
+    .info{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:998px) {
+    .text_basket h4{
+        font-size: 15px;
+    }
+}
+.prudbatu{
+    position: relative;
+    width: 90px;
+    height: 30px;
+    left: 180px;
+    bottom: 260px;
+}
+.prudbatu a{
+    padding: 10px;
+    background-color: darkorange;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.8s;
+}
+.zatelefonuvatu{
+    position: relative;
+    width: 130px;
+    height: 30px;
+    left: 160px;
+    bottom: 210px;
+}
+.zatelefonuvatu a{
+    padding: 10px;
+    background-color: darkorange;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.8s;
+}
+.prudbatu a:hover{
+    background-color: black;
+    color: darkorange;
+}
+.zatelefonuvatu a:hover{
+    background-color: black;
+    color: darkorange;
+}
+.fa-shopping-basket:hover{
+    color: rgb(8, 238, 27);
+}
+.icon i:hover{
+    font-size: 25px;
+    color: red;
+}
+@media screen and (max-width:1400px) {
+    .prudbatu{
+        left: 145px;
+        bottom: 200px;
+    }
+    .zatelefonuvatu{
+        left: 100px;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .prudbatu{
+        left: 105px;
+        bottom: 130px;
+    }
+    .zatelefonuvatu{
+        left: 60px;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:992px) {
+    .prudbatu{
+        left: 185px;
+        bottom: 240px;
+    }
+    .zatelefonuvatu{
+        left: 90px;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .prudbatu{
+        left: 125px;
+        bottom: 200px;
+    }
+    .zatelefonuvatu{
+        left: 90px;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:576px) {
+    .prudbatu{
+        left: 210px;
+        bottom: 280px;
+    }
+    .zatelefonuvatu{
+        left: 190px;
+        bottom: 140px;
+    }
+}
+@media screen and (max-width:372px) {
+    .prudbatu{
+        left: 170px;
+        bottom: 220px;
+    }
+    .zatelefonuvatu{
+        left: 70px;
+        bottom: 40px;
+    }
+}
